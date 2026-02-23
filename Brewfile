@@ -14,6 +14,7 @@ brew 'grep'
 
 
 # Development
+brew nvm
 
 # Apps
 

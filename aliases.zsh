@@ -53,3 +53,6 @@ alias gitchangiest="git log --format=format: --name-only | egrep -v '^$' | sort 
 #with line numbers
 alias vimn='vim +"set number"'
 alias vimns='vim +"set number" +"syntax on"'
+
+#Fix the stupid lan issue caused by cisco any connect crap
+alias fixlan='sudo route delete 192.168.1.0/24'

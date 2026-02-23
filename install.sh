@@ -50,3 +50,7 @@ vim +PluginInstall +qall
 # Set macOS preferences
 # We will run this last because this will reload the shell
 # source .macos
+
+
+# Instal node
+nvm install --lts
